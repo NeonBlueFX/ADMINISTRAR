@@ -1,0 +1,131 @@
+<!DOCTYPe html>
+
+<html lang="en" style="background-color: black;">
+<style>
+  table,
+  th,
+  td {
+    border: 1px solid black;
+
+
+  }
+</style>
+
+<head>
+
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="logoff.css">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<span id="firstText">Bienvenido</span>
+<div class="plug"></div>
+<img src="logo.png" style="width: 100px; position:absolute; top: -5px
+
+;">
+
+<div class="dropdown">
+  <h3 onclick="list()" id="LOG" class="dropbtn" style=" cursor: pointer;  color: white;margin-top: -15px; overflow: hidden;">Usuario:
+    <span id="USERinpage" style="color: white; "></span></h3>
+  <div id="myDropdown" class="dropdown-content">
+
+    <button id="logbtn" onclick="logOff()" style=" background-color:transparent;
+; border:none;">
+      <h3 id="LOGTEXT" style="color: white;">LOG OFF</h3>
+    </button>
+  </div>
+</div>
+<hr id="hr1">
+<div class="body" id="bodyid">
+
+<div class="text1">
+  <h1 style=" color: white; margin-left: 300px;">Productos</h1>
+  <h1 style=" color: white; margin-left: 950px; margin-top: -60px;">Clientes</h1>
+
+</div>
+
+<div class="wrapper" id="div1">
+  <div class="one">
+ 
+
+
+  </div>
+
+  <body onload="loadProductos();">
+    <div class="blox"></div>
+<button onclick="loadProductos()">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</button>
+    <div class="two">
+        <table name="table1" id="productosshow">
+            <tr>
+                <th style="color: white; border: solid white;" id="headprod1">
+                    ID 1
+                    <td><img src="logo.png" width="300px" height="150px" id="imgprod1"></td>
+                </th>
+            </tr>
+            <tr>
+                <th style="color: white; border: solid white;" id="headprod2">
+                    ID 2
+                    <td><img src="logo.png" width="300px" height="150px" id="imgprod2"></td>
+                </th>
+            </tr>
+            <tr>
+                <th style="color: white; border: solid white;" id="headprod3">
+                    ID 2
+                    <td><img src="logo.png" width="300px" height="150px" id="imgprod3"></td>
+                </th>
+            </tr>
+        </table name="table2">
+        <table style="margin-left: 500px; margin-top: -500px;">
+            <tr>
+                <th style="color: white; border: solid white;" id="headprod4">
+                    ID 1
+                    <td><img src="logo.png" width="300px" id="imgprod4"></td>
+                </th>
+            </tr>
+            <tr>
+                <th style="color: white; border: solid white;" id="headprod5">
+                    ID 2
+                    <td><img src="logo.png" width="300px" id="imgprod5"></td>
+                </th>
+            </tr>
+            <tr>
+                <th style="color: white; border: solid white;" id="headprod6">
+                    ID 2
+                    <td><img src="logo.png" width="300px" id="imgprod6"></td>
+                </th>
+            </tr>
+        </table>
+    
+        
+    </div>
+
+    <div class="three">
+     
+    </div>
+    <div class="four">
+
+      <span id="Warning"></span>
+    </div>
+
+    </div>
+    <div style="clear:both"></div>
+</div>
+</div>
+
+
+  <div style="clear:both"></div>
+</div>
+</div>
+</div>
+</div>
+
+<script src="ts/index.js" async></script>
+<script src="JAVA.js" async></script>
+
+</body>
+
+</html>
